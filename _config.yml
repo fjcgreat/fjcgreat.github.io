@@ -70,7 +70,7 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/hexojs/hexo-deployer-git.git
-  branch: blog
+  branch: master
   name: fjcgreat
   email: fjcgreat@outlook.com
 
