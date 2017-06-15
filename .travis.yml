@@ -19,7 +19,6 @@ after_script:
   - git commit -m "update"
   - git push --force "https://${MY_TOKEN}@${GH_REF}" master:master 
 
-    branch: master
 branches:
   only:
     - develop
