@@ -10,18 +10,18 @@ script:
   - hexo g        #生成
   - hexo d  #生成algolia搜索
 
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "fjcgreat" 
-  - git config user.email "fjcgreat@outlook.com"
-  - git add .
-  - git commit -m "update"
-  - git push --force "https://${DEPLOY_TOKEN}@${GH_REF}" master:master 
+#after_script:
+#  - cd ./public
+#  - git init
+#  - git config user.name "fjcgreat" 
+#  - git config user.email "fjcgreat@outlook.com"
+#  - git add .
+#  - git commit -m "update"
+#  - git push --force "https://${DEPLOY_TOKEN}@${GH_REF}" master:master 
 
 branches:
   only:
-    - source
+    - develop
 env:
  global:
    - GH_REF: github.com/fjcgreat/fjcgreat.github.io.git
