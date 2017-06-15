@@ -68,4 +68,9 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/hexojs/hexo-deployer-git.git
+  branch: blog
+  name: fjcgreat
+  email: fjcgreat@outlook.com
+
